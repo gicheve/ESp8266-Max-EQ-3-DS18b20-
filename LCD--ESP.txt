@@ -1,0 +1,12 @@
+    -- Hardware SPI CLK  = GPIO14			(D5) on D1 mini
+    -- Hardware SPI MOSI = GPIO13			(D7) on D1 mini
+
+
+    -- Hardware SPI MISO = GPIO12 (not used) (D6)
+    -- Hardware SPI /CS  = GPIO15 (not used) (D8)
+    -- CS, D/C, and RES can be assigned freely to available GPIOs
+
+
+    local cs  = 8 -- GPIO15, pull-down 10k to GND	(D8) on D1 mini
+    local dc  = 4 -- GPIO2				(D4) on D1 mini
+    local res = 0 -- GPIO16				(D0) on D1 mini
